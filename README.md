@@ -659,30 +659,41 @@ c. Basic Condition Coverage.
 --> The following are the test cases and their corresponding coverages of statements
 Test cases:   
 
-1) p=[(x=2,y=2),(x=2,y=3),(x=1,y=3),(x=1,y=4)]
-Statements covered = { 1,2,3,4,5,7,8}
-Branches covered = {5,8}
-Basic conditions covered = {5-false, 8-false}  
+#### 1) p=[(x=2,y=2),(x=2,y=3),(x=1,y=3),(x=1,y=4)]  
+Statements covered = { 1,2,3,4,5,7,8}  
 
-2) p=[(x=2,y=3),(x=3,y=4),(x=1,y=2),(x=5,y=6)]
-Statements covered = { 1,2,3,4,5,6,7}
-Branches covered = {5,8}
+Branches covered = {5,8}  
+
+Basic conditions covered = {5-false, 8-false}    
+
+#### 2) p=[(x=2,y=3),(x=3,y=4),(x=1,y=2),(x=5,y=6)]  
+Statements covered = { 1,2,3,4,5,6,7}  
+
+Branches covered = {5,8}  
+
 Basic conditions covered = {5-false,true, 8-false}  
 
-3) p=[(x=1,y=5),(x=2,y=7),(x=3,y=5),(x=4,y=5),(x=5,y=6)]
-Statements covered = { 1,2,3,4,5,6,7,8,9}
-Branches covered = {5,8}
+#### 3) p=[(x=1,y=5),(x=2,y=7),(x=3,y=5),(x=4,y=5),(x=5,y=6)]  
+Statements covered = { 1,2,3,4,5,6,7,8,9}  
+
+Branches covered = {5,8}   
+
 Basic conditions covered = {5-false,true, 8-false,true}   
 
-4) p=[(x=1,y=2)]
-Statements covered = { 1,2,3,7,8}
-Branches covered = {8}
+####4) p=[(x=1,y=2)]   
+Statements covered = { 1,2,3,7,8}   
+
+Branches covered = {8}  
+
 Basic conditions covered = {}   
 
-5) p=[]
-Statements covered = { 1,2,3}
-Branches covered = {}
-Basic conditions covered = {}
+#### 5) p=[]  
+Statements covered = { 1,2,3}  
+
+Branches covered = {}  
+
+Basic conditions covered = {}   
+
 Thus, the above 5 test cases are covering all statements, branches and conditions.
 These 5 test cases are adequate for statement coverage,branch coverage and basic
 condition coverage.
